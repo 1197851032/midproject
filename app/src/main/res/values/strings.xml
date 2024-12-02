@@ -30,6 +30,7 @@
     <string name="menu_revert">Revert changes</string>
     <string name="menu_copy">Copy</string>
     <string name="menu_paste">Paste</string>
+    <string name="menu_search">Search</string>
 
     <string name="button_ok">OK</string>
     <string name="text_title">Title:</string>
@@ -41,4 +42,6 @@
     <string name="error_message">Error loading note</string>
     <string name="nothing_to_save">There is nothing to save</string>
     <string name="nothing_to_save1">There is nothing to save</string>
+
+    <string name="search_note">Search note</string>
 </resources>
