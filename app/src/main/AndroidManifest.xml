@@ -117,7 +117,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".NoteSearch" android:label="@string/search_note" />
+        <activity android:name=".NoteSearch"
+            android:label="@string/search_note"
+            android:theme="@android:style/Theme.Holo.Light"/>
 
     </application>
 
