@@ -3,6 +3,7 @@ android期中作业
 1、时间戳：
 1.1、实现效果
  ![image](https://github.com/user-attachments/assets/2cb013e1-a8ba-4349-bd4e-0a5ede80dd37)
+ 
 1.2、实现过程
 （1）在NoteList类中扩增dataColumns，以及对应的视图
 final String[] dataColumns = {
@@ -11,11 +12,14 @@ int[] viewIDs = {
              android.R.id.text1, R.id.text2};
 （2）对应的视图以及代码在notelist_item.xml中完成,要比原先新增一个text2以及布局
  ![image](https://github.com/user-attachments/assets/89d21a9e-da4d-43ef-9910-c48f4b6fe36b)
+ 
 （3）在NoteEditor中修改显示时间的格式
 ![image](https://github.com/user-attachments/assets/6c89232a-b2aa-4ade-91d5-129676b1effd)
+
 2、搜索
 2.1、实现效果 
  ![image](https://github.com/user-attachments/assets/ac0cdd52-fe75-4df8-9c06-9e18096b8bb6)
+ 
 2.2：实现过程
 （1）在list_options_menu.xml中添加搜索的按钮
 <item
@@ -25,6 +29,7 @@ int[] viewIDs = {
         android:showAsAction="always" />
 （2）创建一个笔记搜索的布局文件：note_search.xml
 ![image](https://github.com/user-attachments/assets/83b5ac4b-03e5-416e-a4e5-aff3642e6730)
+
 
 (3)新建note_search类实现查询功能
 package com.example.android.notepad;
@@ -150,11 +155,15 @@ public boolean onOptionsItemSelected(MenuItem item) {
 3.1、效果预览
 将所有图标，背景换成更为精致的图片
  ![image](https://github.com/user-attachments/assets/6bf19192-58ef-4266-9f4e-18524b9c8894)
+ 
 通体是简约的白色，每条笔记列有海滩作为背景
 ![image](https://github.com/user-attachments/assets/304ac756-723b-4d53-9643-4c9dd63797d1)
+
 搜索和编辑页内拥有大理石背景
  ![image](https://github.com/user-attachments/assets/6e14b5e0-8583-4c67-a634-52ae93321fca)
+ 
 ![image](https://github.com/user-attachments/assets/f70f2b50-a7e1-4b4b-a401-a9ac6cc275f7)
+
 
 3.2实现过程
 （1）在manifest文件中将所有activity的theme改为：@android:style/Theme.Holo.Light
